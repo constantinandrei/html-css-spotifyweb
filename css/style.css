@@ -24,16 +24,25 @@ html {
     min-width: 200px;
 }
 
+#side-bar .logo-container {
+    height: 65px;
+    padding-left: var(--side-bar-padding-left);
+}
+
+#side-bar .logo-container img {
+    width: 75%;
+}
+
 #main-content {
     background-color: var(--main-content-bg);
 }
 
 #top-bar {
-    min-height: 65px;
+    height: 65px;
     background-color: var(--top-bar-bg);
     position: sticky;
     top: 0;
-    opacity: 0.7;
+    opacity: 0.9;
     padding: 0.5rem;
 }
 
