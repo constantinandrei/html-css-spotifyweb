@@ -22,15 +22,42 @@ html {
 #side-bar {
     background-color: var(--side-bar-bg);
     min-width: 200px;
+    padding-left: var(--side-bar-padding-left);
 }
 
 #side-bar .logo-container {
     height: 65px;
-    padding-left: var(--side-bar-padding-left);
 }
 
 #side-bar .logo-container img {
-    width: 75%;
+    width: 60%;
+}
+
+#side-bar .icon-container {
+    height: var(--nav-item-height);
+}
+
+#side-bar .icon-container img {
+    height: 65%;
+}
+
+#side-bar .nav-item {
+    padding-top: 0.1rem;
+}
+
+#side-bar .nav-menu-text {
+    font-size: 0.8rem;
+    margin-left: 0.5rem;
+    font-weight: 600;
+}
+
+#side-bar .green-vertical-bar {
+    background-color: chartreuse;
+    position: absolute;
+    left: 0;
+    width: 3px;
+    height: var(--nav-item-height);
+    border-radius: 5px;
 }
 
 #main-content {

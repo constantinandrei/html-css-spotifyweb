@@ -7,5 +7,7 @@
     --white: #FFFFFF;
     --gray: #707070;
 
-    --side-bar-padding-left: 0.5rem;
+    --side-bar-padding-left: 1rem;
+
+    --nav-item-height: 30px;
 }

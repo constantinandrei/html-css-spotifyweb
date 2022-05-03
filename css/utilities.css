@@ -33,3 +33,19 @@
 .overflow-auto {
     overflow: auto;
 }
+
+.relative-container {
+    position: relative;
+}
+
+.filter-invert-full {
+    filter: invert(0);
+}
+
+.filter-invert-less {
+    filter: invert(0.5);
+}
+
+.text-gray {
+    color: var(--gray);
+}
