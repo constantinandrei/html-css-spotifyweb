@@ -2,6 +2,10 @@
     display: flex;
 }
 
+.row-horizontal {
+    flex-direction: row;
+}
+
 .row-vertical {
     flex-direction: column;
 }
@@ -43,7 +47,7 @@
 }
 
 .filter-invert-less {
-    filter: invert(0.5);
+    filter: invert(0.3);
 }
 
 .text-gray {
