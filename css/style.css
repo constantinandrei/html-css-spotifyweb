@@ -6,11 +6,12 @@
 
 html {
     font-family: "Montserrat", sans-serif;
+    color: var(--white);
+    font-size: 16px;
 }
 
 #app-container {
     height: 100vh;
-    background-color: var(--main-content-bg);
 }
 
 #player-bar {
@@ -23,11 +24,25 @@ html {
     min-width: 200px;
 }
 
+#main-content {
+    background-color: var(--main-content-bg);
+}
+
 #top-bar {
-    min-height: 50px;
+    min-height: 65px;
     background-color: var(--top-bar-bg);
     position: sticky;
     top: 0;
     opacity: 0.7;
+    padding: 0.5rem;
 }
 
+#top-bar .button {
+    font-size: 0.6rem;
+    display: inline-block;
+    border: 2px solid var(--white);
+    border-radius: 40px;
+    padding: 0.5rem 1.5rem;
+    cursor: pointer;
+    text-transform: capitalize;
+}
