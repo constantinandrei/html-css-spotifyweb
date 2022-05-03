@@ -50,3 +50,12 @@
 .text-gray:hover {
     color: var(--white);
 }
+
+.text-less-white {
+    color: rgb(237, 231, 231);
+    cursor: pointer;
+}
+
+.text-less-white:hover {
+    color: white;
+}
