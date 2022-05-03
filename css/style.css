@@ -97,6 +97,35 @@ html {
     border-radius: 5px;
 }
 
+#player-bar .left-side .song-name {
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+#player-bar .left-side .artist-name {
+    font-size: 0.6rem;
+    color: var(--gray);
+    font-weight: 500;
+}
+
+#player-bar .left-side .img-container {
+    padding: 10px;
+    width: 80px;
+    flex-basis: auto;
+}
+
+#player-bar .left-side .song-detail {
+    flex-basis: auto;
+}
+
+#player-bar .left-side .img-container img {
+    width: 100%;
+}
+
+#player-bar .left-side .icon-flex-container {
+    gap: 0.5rem;
+}
+
 #side-bar {
     background-color: var(--side-bar-bg);
     min-width: var(--side-bar-width);
