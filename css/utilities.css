@@ -42,14 +42,11 @@
     position: relative;
 }
 
-.filter-invert-full {
-    filter: invert(0);
-}
-
-.filter-invert-less {
-    filter: invert(0.3);
-}
-
 .text-gray {
     color: var(--gray);
+    cursor: pointer;
+}
+
+.text-gray:hover {
+    color: var(--white);
 }

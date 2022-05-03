@@ -37,7 +37,7 @@ html {
     height: var(--nav-item-height);
 }
 
-#side-bar .icon-container img {
+#side-bar .icon-container .nav-icon {
     height: 65%;
 }
 
@@ -68,6 +68,23 @@ html {
     gap: 0.4rem;
 }
 
+#side-bar .add-playlist-menu:hover .add-playlist {
+    background-color: white;
+}
+
+#side-bar .add-playlist-menu:hover .add-playlist-text {
+    color: white;
+}
+
+#side-bar .nav-item.text-less-white {
+    color: rgb(237, 231, 231);
+    cursor: pointer;
+}
+
+#side-bar .nav-item.text-less-white:hover {
+    color: white;
+}
+
 #side-bar .add-playlist {
     height: 35px;
     line-height: 2rem;
@@ -83,14 +100,12 @@ html {
 
 #side-bar .add-playlist-text {
     font-size: 0.7rem;
-    color: var(--gray);
     margin-left: 0.6rem;
     font-weight: bold;
 }
 
 #side-bar .playlist-menu li {
     font-size: 0.7rem;
-    color: var(--gray);
     font-weight: 600;
     padding: 0.4rem 0;
 }
@@ -105,7 +120,7 @@ html {
     position: sticky;
     top: 0;
     opacity: 0.9;
-    padding: 0.5rem;
+    padding-right: 1rem;
 }
 
 #top-bar .button {
@@ -116,4 +131,12 @@ html {
     padding: 0.5rem 1.5rem;
     cursor: pointer;
     text-transform: capitalize;
+}
+
+#top-bar .button:hover {
+    font-size: 0.8rem;
+    color: white;
+    opacity: 1;
+    position: relative;
+    text-align: center;
 }
