@@ -7,3 +7,27 @@
 html {
     font-family: "Montserrat", sans-serif;
 }
+
+#app-container {
+    height: 100vh;
+    background-color: var(--main-content-bg);
+}
+
+#player-bar {
+    background-color: var(--player-bg);
+    min-height: 50px;
+}
+
+#side-bar {
+    background-color: var(--side-bar-bg);
+    min-width: 200px;
+}
+
+#top-bar {
+    min-height: 50px;
+    background-color: var(--top-bar-bg);
+    position: sticky;
+    top: 0;
+    opacity: 0.7;
+}
+
