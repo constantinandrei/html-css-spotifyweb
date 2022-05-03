@@ -16,12 +16,27 @@ html {
 
 #player-bar {
     background-color: var(--player-bg);
-    min-height: 50px;
+    min-height: 100px;
+}
+
+#player-bar .player-controller {
+    flex-basis: auto;
+    width: 100%;
+    max-width: 680px;
+}
+
+#player-bar .left-side {
+    min-width: var(--side-bar-width);
+}
+
+#player-bar .right-side {
+    min-width: var(--side-bar-width);
+    flex-basis: auto;
 }
 
 #side-bar {
     background-color: var(--side-bar-bg);
-    min-width: 200px;
+    min-width: var(--side-bar-width);
     padding-left: var(--side-bar-padding-left);
     padding-bottom: 0.4rem;
 }
