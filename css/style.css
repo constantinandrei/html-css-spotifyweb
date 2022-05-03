@@ -149,8 +149,10 @@ html {
 }
 
 #top-bar .btn-container {
-    flex-basis: 180px;
-    flex-shrink: 0;
+    position: absolute;
+    top: 50%;
+    right: 1.2rem;
+    transform: translateY(-50%);
 }
 
 #top-bar .button {
@@ -161,12 +163,11 @@ html {
     padding: 0.5rem 1.5rem;
     cursor: pointer;
     text-transform: capitalize;
+    transition: transform .3s;
 }
 
 #top-bar .btn-container .button:hover {
-    font-size: 0.8rem;
     color: white;
     opacity: 1;
-    position: relative;
-    text-align: center;
+    transform: scale(1.2);
 }
