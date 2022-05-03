@@ -90,11 +90,17 @@ html {
     cursor: pointer;
 }
 
+#player-bar .time-bar:hover {
+    transform: scaleY(2);
+}
+
 #player-bar .time-bar .progression-time-bar {
     width: 20%;
     background-color: var(--white);
-    height: 4px;
+    height: 5px;
     border-radius: 5px;
+    position: absolute;
+    top: -1px;
 }
 
 #player-bar .left-side .song-name {
@@ -124,6 +130,33 @@ html {
 
 #player-bar .left-side .icon-flex-container {
     gap: 0.5rem;
+}
+
+#player-bar .right-side .volume-bar {
+    background-color: var(--gray);
+    height: 3px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#player-bar .right-side .volume-bar:hover {
+    transform: scaleY(5);
+}
+
+#player-bar .right-side .volume-bar .actual-volume-bar {
+    width: 20%;
+    background-color: var(--white);
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    top: -1px;
+}
+
+#player-bar .right-side {
+    gap: 0.9rem;
+    justify-content: space-between;
+    padding-right: 0.5rem;
+    font-size: 0.8rem;
 }
 
 #side-bar {
