@@ -81,7 +81,7 @@
 }
 
 #player-bar .hover-space:hover .progression-time-bar .white-dot{
-    display: block;
+    transform: translateY(-50%) scale(3);
 }
 
 #player-bar .time-bar .progression-time-bar {
@@ -140,7 +140,7 @@
 }
 
 #player-bar .right-side .hover-space:hover .actual-volume-bar .white-dot{
-    display: block;
+    transform: translateY(-50%) scale(3);
 }
 
 #player-bar .right-side .volume-bar .actual-volume-bar {
@@ -165,13 +165,13 @@
 }
 
 .white-dot {
-    display: none;
     position: absolute;
     right: 0;
     top: 50%;
     transform: translateY(-50%);
-    width: 15px;
+    width: 4px;
     aspect-ratio: 1 / 1;
     background-color: white;
     border-radius: 50%;
+    transition-duration: 0.3s;
 }
