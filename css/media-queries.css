@@ -16,7 +16,7 @@
     }
 
     #player-bar .right-side {
-        min-width: 140px;
+        min-width: 160px;
     }
 
     .row-vertical-sm {
@@ -77,7 +77,7 @@
     }
 
     #player-bar .left-side {
-        min-width: 140px;
+        min-width: 120px;
     }
 
     #player-bar .right-side {
@@ -98,6 +98,16 @@
 
     #player-bar .track-bar {
         gap: 0.8rem;
+    }
+
+    #player-bar .left-side .song-name {
+        font-size: 0.6rem;
+        font-weight: bold;
+    }
+
+    #player-bar .left-side .artist-name {
+        font-size: 0.5rem;
+        font-weight: bold;
     }
 }
 
