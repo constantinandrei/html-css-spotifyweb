@@ -14,12 +14,27 @@ html {
     height: 100vh;
 }
 
-
-
-
-
 #main-content {
     background-color: var(--main-content-bg);
+}
+
+#main-content .main-nav-bar {
+    gap: 1.5rem;
+    font-size: 0.7rem;
+    font-weight: 500;
+    padding-top: 0.5rem;
+    cursor: pointer;
+}
+
+#main-content .main-nav-bar .green-horizontal-line {
+    height: 2px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 35px;
+    background-color: chartreuse;
 }
 
 #top-bar {

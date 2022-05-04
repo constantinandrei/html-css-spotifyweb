@@ -10,6 +10,10 @@
     flex-direction: column;
 }
 
+.wrap-on {
+    flex-wrap: wrap;
+}
+
 .spc-btw {
     justify-content: space-between;
 }
