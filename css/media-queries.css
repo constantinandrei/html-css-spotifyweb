@@ -49,6 +49,10 @@
     #player-bar .track-bar {
         gap: 1.2rem;
     }
+
+    .shrink-1-600 {
+        flex-shrink: 1;
+    }
 }
 
 @media screen and (max-width: 600px) {
