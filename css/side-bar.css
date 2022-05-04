@@ -119,3 +119,19 @@
     min-width: 60px;
     display: none;
 }
+
+#app-container #side-bar.hided {
+    padding-left: 0;
+}
+
+#side-bar.hided .logo-container {
+    height: 50px;
+}
+
+#side-bar.hided .logo-container img {
+    width: 50%;
+}
+
+#side-bar.hided .icon-container .nav-icon {
+    height: 75%;
+}
