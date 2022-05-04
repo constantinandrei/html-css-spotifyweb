@@ -123,4 +123,8 @@
     #player-bar .track-bar {
         gap: 0.5rem;
     }
+
+    #player-bar .right-side {
+        min-width: 90px;
+    }
 }
