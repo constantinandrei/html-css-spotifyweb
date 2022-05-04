@@ -3,4 +3,6 @@
 @import url("variables.css");
 @import url("style.css");
 @import url("utilities.css");
+@import url("side-bar.css");
+@import url("player-bar.css");
 @import url("media-queries.css");
