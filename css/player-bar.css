@@ -1,12 +1,13 @@
 #player-bar {
     background-color: var(--player-bg);
     min-height: 90px;
+    gap: 2rem;
 }
 
 #player-bar .player-controller {
     flex-basis: auto;
     width: 100%;
-    max-width: 680px;
+    max-width: 450px;
     gap: .6rem;
 }
 

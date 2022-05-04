@@ -18,6 +18,14 @@
     justify-content: space-between;
 }
 
+.items-start {
+    align-items: flex-start;
+}
+
+#main-content .recently-played img {
+    width: 100%;
+}
+
 .justify-center {
     justify-content: center;
 }

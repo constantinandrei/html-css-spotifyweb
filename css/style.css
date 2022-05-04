@@ -18,8 +18,16 @@ html {
     background-color: var(--main-content-bg);
 }
 
+#main-content .recently-played {
+    padding: 1.5rem 0.5rem;
+}
+
+#main-content .recently-played h3{
+    padding-left: 0.5rem;
+}
+
 #main-content .main-nav-bar {
-    gap: 1.5rem;
+    gap: .5rem 1.5rem;
     font-size: 0.7rem;
     font-weight: 500;
     padding-top: 0.5rem;
@@ -35,6 +43,11 @@ html {
     transform: translateX(-50%);
     width: 35px;
     background-color: chartreuse;
+}
+
+.main-col {
+    flex-basis: 16.6666666%;
+    padding: .5rem;
 }
 
 #top-bar {
