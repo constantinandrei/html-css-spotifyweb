@@ -27,10 +27,10 @@ html {
 }
 
 #main-content .main-nav-bar {
-    gap: .5rem 1.5rem;
+    gap: 1.5rem;
     font-size: 0.7rem;
     font-weight: 500;
-    padding-top: 0.5rem;
+    padding: 0.5rem 1.5rem;
     cursor: pointer;
 }
 

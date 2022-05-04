@@ -114,3 +114,8 @@
     font-weight: bold;
     font-size: 0.8rem;
 }
+
+#side-bar.hided {
+    min-width: 60px;
+    display: none;
+}
