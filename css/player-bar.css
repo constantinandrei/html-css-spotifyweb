@@ -48,7 +48,7 @@
 #player-bar .ctr-icon.play-icon {
     position: absolute;
     top: 50%;
-    left: 59%;
+    left: 57%;
     transform: translate(-50%, -50%);
     transition: transform 0.3s, position 0.3s;
 }
