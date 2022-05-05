@@ -52,6 +52,7 @@
 
     .shrink-1-600 {
         flex-shrink: 1;
+        overflow: unset;
     }
 }
 
@@ -70,10 +71,6 @@
 
     .shrink-1-600 {
         flex-shrink: 1;
-    }
-
-    .grow-0-600 {
-        flex-grow: 0;
     }
 
     #player-bar .left-side .img-container.width-600 {

@@ -79,6 +79,9 @@
     font-size: 0.7rem;
     font-weight: 600;
     padding: 0.4rem 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 #side-bar .download-container {
